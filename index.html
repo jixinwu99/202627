@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#a9d7e8" />
+  <title>吴季欣 · 艺术商业履历</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="scene" id="top">
+    <div class="grain"></div>
+    <div class="sun"></div>
+    <div class="leaf leaf-one"></div>
+    <div class="leaf leaf-two"></div>
+    <div class="leaf leaf-three"></div>
+    <header class="topbar">
+      <a class="monogram" href="#top" aria-label="返回首页">WJ<span>．</span>X</a>
+      <p class="edition">PORTFOLIO / 2026</p>
+      <button class="menu-button" id="menuButton" aria-label="打开目录"><span></span><span></span></button>
+    </header>
+
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> ART × BUSINESS / Xiamen</p>
+        <h1 id="hero-title">吴季欣</h1>
+        <p class="role">艺术内容与商业项目之间的连接者</p>
+        <p class="intro">以艺术训练为底色，把内容、运营与现场执行整理成可落地的项目。</p>
+        <button class="enter-button" data-open="about">探索履历 <span>↗</span></button>
+      </div>
+      <div class="hero-art" aria-label="艺术商业工作室互动地图">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="studio-card">
+          <div class="studio-top"><span>STUDIO NOTE 01</span><span>厦门 · 香港</span></div>
+          <div class="piano" aria-label="动态三角钢琴">
+            <div class="piano-lid"></div>
+            <div class="piano-body"></div>
+            <div class="piano-keys"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            <div class="piano-leg piano-leg-left"></div>
+            <div class="piano-leg piano-leg-right"></div>
+            <div class="piano-pedal"></div>
+          </div>
+          <div class="studio-foot"><span>CURIOUS / ORGANIZED</span><span>2026</span></div>
+        </div>
+        <button class="hotspot hotspot-edu" data-open="education"><i>01</i><span>学习轨迹</span></button>
+        <button class="hotspot hotspot-work" data-open="work"><i>02</i><span>实习现场</span></button>
+        <button class="hotspot hotspot-project" data-open="projects"><i>03</i><span>项目档案</span></button>
+        <button class="hotspot hotspot-skill" data-open="skills"><i>04</i><span>能力工具</span></button>
+      </div>
+      <div class="scroll-cue"><span>SCROLL TO EXPLORE</span><b>↓</b></div>
+    </section>
+    <footer class="footer"><span>OPEN TO COMMERCIAL ROLES</span><a href="mailto:wjixinn@gmail.com">wjixinn@gmail.com ↗</a></footer>
+  </main>
+
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-backdrop" data-close="true"></div>
+    <div class="drawer-panel">
+      <button class="close-button" id="closeButton" aria-label="关闭内容">×</button>
+      <div class="drawer-content" id="drawerContent"></div>
+    </div>
+  </aside>
+  <script src="script.js"></script>
+</body>
+</html>
